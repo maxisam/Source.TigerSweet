@@ -62,3 +62,10 @@
 			}
 		}
 	}
+
+    img{
+        &.dessert.product{
+            width: 300px;
+            height: 300px;
+        }
+    }

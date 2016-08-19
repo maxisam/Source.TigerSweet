@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://maxisam.github.io
-root: /TigerSweet
+url: https://maxisam.github.io/TigerSweet
+root: /TigerSweet/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,3 +71,6 @@ deploy:
   type: git
   repo: https://github.com/maxisam/TigerSweet
 branch: master
+
+sitemap:
+    path: sitemap.xml
