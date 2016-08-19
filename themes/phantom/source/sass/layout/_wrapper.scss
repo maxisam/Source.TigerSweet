@@ -1,0 +1,55 @@
+///
+/// Phantom by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Wrapper */
+
+	#wrapper {
+        position: relative;
+		> * {
+			> .inner {
+				$gutter: _size(gutter);
+
+				width: 100%;
+				max-width: _size(inner);
+				margin: 0 auto;
+				padding: 0 $gutter;
+
+				@include breakpoint(small) {
+					$gutter: _size(gutter) * 0.5;
+
+					padding: 0 $gutter;
+				}
+
+				.tags {
+					margin: 50px 0;
+					a.button {
+						margin: 0 15px 0 0;
+					}
+				}
+			}
+		}
+    
+	}
+
+#wrapper::after {
+  content: "";
+  background: url("/images/cover.jpg");
+  background-position: 0 0;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+   width: 100%;
+    height: 78%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
