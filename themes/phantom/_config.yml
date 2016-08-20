@@ -40,7 +40,7 @@ comments:
 
 # Google Analytics Tracking ID
 google_analytics: UA-82815285-1
-favicon: images/favicon.ico
+favicon: https://maxisam.github.io/TigerSweet/images/favicon.ico
 # Social Accounts
 facebook_url: https://www.facebook.com/tigersweetscolumbia
 #twitter_url: https://twitter.com/?lang=en
