@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-  About: /about.html
+  About: /about/index.html
 
 # Logo Image Source
 logo_src: /TigerSweet/images/logo.svg
@@ -17,7 +17,7 @@ susbtitle_secondary: Chinese homemade Bakery
 about_footer: Tiger Sweet -Chinese homemade Bakery
 
 # Default post title
-default_post_title: New Dessert
+default_post_title: 
 
 # Default post cover index page (Recommended)
 default_cover_index: "http://placehold.it/450x450"
