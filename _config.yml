@@ -70,10 +70,10 @@ theme: phantom
 deploy:
   type: git
   repo: https://github.com/maxisam/TigerSweet
-branch: master
+  branch: master
 
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
     
 feed:
   type: atom
